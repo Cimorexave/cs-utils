@@ -1,6 +1,6 @@
 namespace Utils;
 
-public class List {
+public static class List {
     public static List<T> Slice<T>(this IEnumerable<T> source, int start = 0, int end = 0)
     {
         start = (start >= 0) ? start : source.Count() + start;

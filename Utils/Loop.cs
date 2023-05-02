@@ -1,6 +1,6 @@
 ﻿namespace Utils;
 
-public class Loop {
+public static class Loop {
     public static void iForEach<T>(this IEnumerable<T> enumerable, Action<T, int?> action)
     {
         int index = 0;
